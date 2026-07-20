@@ -1,0 +1,16 @@
+@for (section of menu; track section.title) {
+  <mat-nav-list>
+    <div matSubheader class="section-title">{{ section.title }}</div>
+    @for (item of section.items; track item.route) {
+      <a
+        mat-list-item
+        [routerLink]="item.route"
+        routerLinkActive="active"
+        (click)="navigate.emit()"
+      >
+        <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
+        <span matListItemTitle>{{ item.label }}</span>
+      </a>
+    }
+  </mat-nav-list>
+}

@@ -1,0 +1,27 @@
+.header {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.spacer {
+  flex: 1;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.theme-select {
+  width: 96px;
+  font-size: 14px;
+}
+
+.domain {
+  font-size: 14px;
+  font-weight: 500;
+  white-space: nowrap;
+}

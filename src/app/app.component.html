@@ -1,0 +1,10 @@
+<mat-sidenav-container class="shell">
+  <mat-sidenav #drawer class="side-nav" mode="over" autoFocus="false">
+    <app-side-nav (navigate)="drawer.close()" />
+  </mat-sidenav>
+
+  <mat-sidenav-content class="content">
+    <app-header (toggleSideMenu)="drawer.toggle()" />
+    <app-main-content class="main" />
+  </mat-sidenav-content>
+</mat-sidenav-container>

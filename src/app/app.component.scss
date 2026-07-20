@@ -1,0 +1,19 @@
+.shell {
+  height: 100vh;
+}
+
+.side-nav {
+  width: 250px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.main {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+}

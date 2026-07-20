@@ -1,0 +1,22 @@
+<mat-toolbar class="header">
+  <button mat-icon-button aria-label="Toggle menu" (click)="toggleSideMenu.emit()">
+    <mat-icon>menu</mat-icon>
+  </button>
+
+  <span class="spacer"></span>
+
+  <div class="right-container">
+    <mat-select
+      class="theme-select"
+      [value]="(themeService.currentTheme$ | async)"
+      (selectionChange)="onThemeSelect($event)"
+      aria-label="Theme selector"
+    >
+      @for (theme of themeService.themes; track theme) {
+        <mat-option [value]="theme">{{ theme === 'dark-theme' ? 'Dark' : 'Light' }}</mat-option>
+      }
+    </mat-select>
+
+    <span class="domain">{{ domain }}</span>
+  </div>
+</mat-toolbar>

@@ -1,0 +1,7 @@
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-home',
+  template: '<h1>Home</h1><p>Welcome to the UI shell.</p>',
+})
+export class HomeComponent {}
