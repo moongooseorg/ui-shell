@@ -14,6 +14,7 @@ export const MENU: MenuSection[] = [
     title: 'General',
     items: [
       { label: 'Home', icon: 'home', route: '/home' },
+      { label: 'Ticker Tracker', icon: 'trending_up', route: '/markets' },
       { label: 'About', icon: 'info', route: '/about' },
     ],
   },
