@@ -19,6 +19,9 @@ export const MENU: MenuSection[] = [
   },
   {
     title: 'Utilities',
-    items: [{ label: 'MP3 Tagger', icon: 'music_note', route: '/mp3-tagger' }],
+    items: [
+      { label: 'MP3 Tagger', icon: 'music_note', route: '/mp3-tagger' },
+      { label: 'Steganography', icon: 'enhanced_encryption', route: '/steganography' },
+    ],
   },
 ];
