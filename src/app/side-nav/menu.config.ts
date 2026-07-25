@@ -15,7 +15,10 @@ export const MENU: MenuSection[] = [
     items: [
       { label: 'Home', icon: 'home', route: '/home' },
       { label: 'Markets', icon: 'trending_up', route: '/markets' },
-      { label: 'MP3 Tagger', icon: 'music_note', route: '/mp3-tagger' },
     ],
+  },
+  {
+    title: 'Utilities',
+    items: [{ label: 'MP3 Tagger', icon: 'music_note', route: '/mp3-tagger' }],
   },
 ];
