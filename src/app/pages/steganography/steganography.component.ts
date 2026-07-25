@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-steganography',
-  template: '<iframe class="frame" src="/steganography/" title="Steganography"></iframe>',
+  template: '<iframe class="frame" src="/apps/steganography/" title="Steganography"></iframe>',
   styles: [
     `
       :host {

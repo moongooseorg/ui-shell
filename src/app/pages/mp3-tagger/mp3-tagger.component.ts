@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-mp3-tagger',
-  template: '<iframe class="frame" src="/mp3-tagger/" title="MP3 Tagger"></iframe>',
+  template: '<iframe class="frame" src="/apps/mp3-tagger/" title="MP3 Tagger"></iframe>',
   styles: [
     `
       :host {
