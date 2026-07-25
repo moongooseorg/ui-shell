@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-markets',
-  template: '<iframe class="frame" src="/ticker-tracker/" title="Ticker Tracker"></iframe>',
+  template: '<iframe class="frame" src="/markets/" title="Markets"></iframe>',
   styles: [
     `
       :host {
