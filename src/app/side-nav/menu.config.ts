@@ -20,6 +20,7 @@ export const MENU: MenuSection[] = [
   {
     title: 'Utilities',
     items: [
+      { label: 'Grocery Saver', icon: 'local_grocery_store', route: '/grocery-saver' },
       { label: 'MP3 Tagger', icon: 'music_note', route: '/mp3-tagger' },
       { label: 'Steganography', icon: 'enhanced_encryption', route: '/steganography' },
     ],
